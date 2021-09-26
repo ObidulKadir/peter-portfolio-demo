@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+img{
+    height: 350px;
+    width: 350px;
+    
+}
+.top-1{
+    
+    height: 600px;
+    padding: 20px 30px;   
+    
+}
+.half-width-header{
+    width: 60%;
+}
+.half-header-img{
+    width: 30%;
+    
+}
+
+.half-width-title{
+    margin-left: 22%;
+    margin-top: 14%;
+}
+/* .half-width .half-width-title{
+    margin-left: 22%;
+} */
+.half-width{
+    
+    float: left;
+    margin-top: 8%; 
+     
+}
+.half-width-title h2{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.half-width-title h1{
+    font-weight: 1000;
+    color: #EC4F8F;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-top: -15px;
+}
+.half-width-title p, .conetent-one-biography p{
+    color: gray;
+}
+.hire_button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #EC4F8F; 
+    border: 1px solid #EC4F8F;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.top-1{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contentsection part  one */
+.content-one-img{
+    /* width: 40%;
+    display: block;
+    margin-left: 20px; */
+   
+    width: 35%;
+}
+.conetent-one-biography{
+    width: 55%;
+   
+    margin-top: 5%;
+}
+.conetent-float{
+    float: left;
+    
+}
+.content-one{
+    height: 600px; 
+}
+.content-one-margin{
+    
+    padding-top: 10%;
+    padding-left: 10%;
+}
+#content-one-bg{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+/* contentsection two */
+.content-two{
+    height: 600px;
+    text-align: center;
+    
+    padding: 2%;
+}
+.content-two .content-two-images{
+    margin-top: 50px;
+    padding: 15px;
+}
+#content-two-bg{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* footer sectionpart 1 */
+.footer-section{
+    text-align: center;
+    height: 400px;
+    padding: 5%;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+
+}
+.footer-section h3{
+    font-size: 20px;
+}
+.footer-section p{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -25px;
+    color: gray;
+}
+
+.footer-section button{
+    margin-top: 4%;
+    padding: 8px 50px;
+    background-color: #EC4F8F;
+    font-weight: 700;
+    border: 1px solid #EC4F8F;
+    border-radius: 5px;
+}
+
+/* footer */
+footer{
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
