@@ -70,21 +70,17 @@ img{
 }
 
 /* contentsection part  one */
-.content-one-img{
-    /* width: 40%;
-    display: block;
-    margin-left: 20px; */
-   
+.content-one-img{  
+    padding-top: 5px;
     width: 35%;
+    border: 1px solid black;
 }
 .conetent-one-biography{
-    width: 55%;
-   
+    width: 55%; 
     margin-top: 5%;
 }
 .conetent-float{
-    float: left;
-    
+    float: left;  
 }
 .content-one{
     height: 600px; 
